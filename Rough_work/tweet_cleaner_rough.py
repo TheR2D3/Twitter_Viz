@@ -175,7 +175,8 @@ def data_set_cleaner(data_set_temp):
 
     #Text cleaning begin
 
-    #Remove the emojis    
+    #Remove the emojis
+    #data_set_temp['Tweet'] = data_set_temp['No_emojis'].str.replace('[^\w\s#@/:%.,_-]', '', flags=re.UNICODE)
     data_set_temp['No_emojis'] = data_set_temp['Tweet'].apply(lambda x: x.encode('ascii', 'ignore').decode('ascii'))
 
     #Lower the text    
