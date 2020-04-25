@@ -2,6 +2,9 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output, State
+from dataframe_populator import dataframe_populator
+import plotly.graph_objects as go
+import plotly.express as px
 
 external_stylesheets = ['styles.css','custom_styles.css']
 
@@ -51,9 +54,17 @@ app.layout = html.Div([
 )
 def getInput(n_clicks,input_value):
     if (input_value):
-        outputValue = str(input_value)
-        return outputValue
-
+        input_value = str(input_value)
+            
+        dataframe_orig = dataframe_populator(input_value)
+        #output_value = list(dataframe_orig['Sentiment'])
+        viz_plot = px.line(dataframe_orig, y=dataframe_orig['Sentiment'], hover_data=["Tweet","Created_at","Retweets"],title='Sentiments',width=600,height=400)
+        return(
+                dcc.Graph(
+                    id='Sentiment',
+                    figure=viz_plot  
+                )
+        )
 
 if __name__ == '__main__':
     app.run_server(debug=True)

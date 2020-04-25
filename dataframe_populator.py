@@ -60,5 +60,8 @@ def dataframe_populator(screen_name):
     #Calculate and Populate the sentiments of the Tweets
     cleaned_data_frame['Sentiment'] = cleaned_data_frame['Stemmed_review'].apply(lambda x:senti_analyzer(x))
 
+    #Round the value to 2 floating points
+    cleaned_data_frame['Sentiment'] = cleaned_data_frame['Sentiment'].apply(lambda x:round(x,2) * 100)
+
     #Return the dataset
     return(cleaned_data_frame)
