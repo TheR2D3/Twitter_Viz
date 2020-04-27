@@ -1,0 +1,115 @@
+#pageTitle{
+    text-align: center;
+    color: #f4f4f4;
+    margin: auto;
+    font-size:25pt;
+    background-color: #1da1f2;
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:550;
+    position:relative;
+    border-radius: 5px;
+}
+
+#twitLogo{
+    width:70px;
+    height:70px;
+    margin:auto;                                
+    position:relative;
+    display:block;
+}
+
+#userVizBtn{
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;    
+    border: 2px thin #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;        
+    margin: 5px;
+    text-align: center;
+    position:relative;
+    display: inline-block;
+}
+
+#userVizBtn:hover{
+    color: #ffffff !important;
+    background: #1da1f2;
+    border-color: #1da1f2 !important;
+    transition: all 0.4s ease 0s;
+}
+
+#globeViz{
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;    
+    border: 2px thin #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;        
+    margin: 5px;
+    text-align: center;    
+    position:relative;        
+}
+
+#globeViz:hover{
+    color: #ffffff !important;
+    background: #1da1f2;
+    border-color: #1da1f2 !important;
+    transition: all 0.4s ease 0s;
+}
+
+#inputContainerDiv{
+    width:30%;
+    height:100%;
+    text-align:center;
+    position:relative;
+    -webkit-box-shadow: 10px 10px 10px -4px rgba(0,0,0,0.14);
+    -moz-box-shadow: 10px 10px 10px -4px rgba(0,0,0,0.14);
+    box-shadow: 10px 10px 10px -4px rgba(0,0,0,0.14);  
+    background-color: #fafafa;
+    margin:auto;
+    margin-top: 5px;                  
+}
+
+#getVizBtn{
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;    
+    border: 2px thin #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;        
+    margin: 5px;
+    text-align: center;    
+    position:relative;        
+}
+
+#getVizBtn:hover{
+    color: #f4f4f4 !important;
+    background: hsl(0, 0%, 67%);
+    border-color: #1da1f2 !important;
+    transition: all 0.4s ease 0s;    
+}
+
+#graphOutput{
+    width: 50%;
+    border-color: #1da1f2;    
+    border: thin;
+    position: relative;
+    margin: 4px;
+    border-radius: 2px;
+    border-width: 1pc;
+    margin: auto;
+}
+
+#globeOutput{
+    width: 50%;
+    border-color: #1da1f2;    
+    border: thin;
+    border-width: 1pc;
+    position: relative;
+    margin: 4px;
+    border-radius: 2px;    
+}

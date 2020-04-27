@@ -4,6 +4,7 @@ import tweepy
 #from tweet_cleaner_rough import text_cleaner
 from tweet_cleaner_rough import data_set_cleaner
 from textblob import TextBlob
+import json
 
 
 #Function to calculate the sentiment
@@ -62,5 +63,23 @@ def dataframe_populator(screen_name):
 
     #Return the dataset
     return(cleaned_data_frame)
+
+def trend_name_populator(woe_id):
+
+    #Initialize the APIs to extract trends
+    auth = tweepy.OAuthHandler('PwIx3tXnoN6LNEjHMWtn2b7s2', '8vr859bsLSRyiijzMvFaACYqxnYNdLhcwTWhKEUPSrRSnrQziU')
+    auth.set_access_token('150554502-Svlt33TXWClnGYpJ5G01SfVUYhXcEvXCaIfQW8nW', 'eiKA07ylhb5Y5dWWXTaRU09H39N8rVZMFQTOmNjD081n5')
+    api = tweepy.API(auth)    
+    
+    #Load the location woe_id to populate trend object
+    location_trend_obj = api.trends_place(woe_id) 
+    trends = json.loads(json.dumps(location_trend_obj, indent=1))
+    trend_list=[]
+    
+    for trend in trends[0]["trends"]:
+        trend_list.append(trend["name"])
+
+    return(trend_list[:5])
+	
 
 
