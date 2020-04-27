@@ -1,0 +1,467 @@
+Woe_id,Location,Country,Country_Code
+2972,Winnipeg,Canada,CA
+3369,Ottawa,Canada,CA
+3444,Quebec,Canada,CA
+3534,Montreal,Canada,CA
+4118,Toronto,Canada,CA
+8676,Edmonton,Canada,CA
+8775,Calgary,Canada,CA
+9807,Vancouver,Canada,CA
+12723,Birmingham,United Kingdom,GB
+12903,Blackpool,United Kingdom,GB
+13383,Bournemouth,United Kingdom,GB
+13911,Brighton,United Kingdom,GB
+13963,Bristol,United Kingdom,GB
+15127,Cardiff,United Kingdom,GB
+17044,Coventry,United Kingdom,GB
+18114,Derby,United Kingdom,GB
+19344,Edinburgh,United Kingdom,GB
+21125,Glasgow,United Kingdom,GB
+25211,Hull,United Kingdom,GB
+26042,Leeds,United Kingdom,GB
+26062,Leicester,United Kingdom,GB
+26734,Liverpool,United Kingdom,GB
+28218,Manchester,United Kingdom,GB
+28869,Middlesbrough,United Kingdom,GB
+30079,Newcastle,United Kingdom,GB
+30720,Nottingham,United Kingdom,GB
+32185,Plymouth,United Kingdom,GB
+32452,Portsmouth,United Kingdom,GB
+32566,Preston,United Kingdom,GB
+34503,Sheffield,United Kingdom,GB
+36240,Stoke-on-Trent,United Kingdom,GB
+36758,Swansea,United Kingdom,GB
+44418,London,United Kingdom,GB
+44544,Belfast,United Kingdom,GB
+76456,Santo Domingo,Dominican Republic,DO
+83123,Guatemala City,Guatemala,GT
+110978,Acapulco,Mexico,MX
+111579,Aguascalientes,Mexico,MX
+115958,Chihuahua,Mexico,MX
+116545,Mexico City,Mexico,MX
+116556,Ciudad Juarez,Mexico,MX
+116564,Nezahualcóyotl,Mexico,MX
+117994,Culiacán,Mexico,MX
+118466,Ecatepec de Morelos,Mexico,MX
+124162,Guadalajara,Mexico,MX
+124785,Hermosillo,Mexico,MX
+131068,León,Mexico,MX
+133327,Mérida,Mexico,MX
+133475,Mexicali,Mexico,MX
+134047,Monterrey,Mexico,MX
+134091,Morelia,Mexico,MX
+134395,Naucalpan de Juárez,Mexico,MX
+137612,Puebla,Mexico,MX
+138045,Querétaro,Mexico,MX
+141272,Saltillo,Mexico,MX
+144265,San Luis Potosí,Mexico,MX
+149361,Tijuana,Mexico,MX
+149769,Toluca,Mexico,MX
+151582,Zapopan,Mexico,MX
+332471,Mendoza,Argentina,AR
+349859,Santiago,Chile,CL
+349860,Concepcion,Chile,CL
+349861,Valparaiso,Chile,CL
+368148,Bogotá,Colombia,CO
+368149,Cali,Colombia,CO
+368150,Medellín,Colombia,CO
+368151,Barranquilla,Colombia,CO
+375732,Quito,Ecuador,EC
+375733,Guayaquil,Ecuador,EC
+395269,Caracas,Venezuela,VE
+395270,Maracaibo,Venezuela,VE
+395271,Maracay,Venezuela,VE
+395272,Valencia,Venezuela,VE
+395273,Barcelona,Venezuela,VE
+395275,Ciudad Guayana,Venezuela,VE
+395277,Turmero,Venezuela,VE
+418440,Lima,Peru,PE
+455819,Brasília,Brazil,BR
+455820,Belém,Brazil,BR
+455821,Belo Horizonte,Brazil,BR
+455822,Curitiba,Brazil,BR
+455823,Porto Alegre,Brazil,BR
+455824,Recife,Brazil,BR
+455825,Rio de Janeiro,Brazil,BR
+455826,Salvador,Brazil,BR
+455827,São Paulo,Brazil,BR
+455828,Campinas,Brazil,BR
+455830,Fortaleza,Brazil,BR
+455831,Goiânia,Brazil,BR
+455833,Manaus,Brazil,BR
+455834,São Luís,Brazil,BR
+455867,Guarulhos,Brazil,BR
+466861,Córdoba,Argentina,AR
+466862,Rosario,Argentina,AR
+468382,Barquisimeto,Venezuela,VE
+468384,Maturín,Venezuela,VE
+468739,Buenos Aires,Argentina,AR
+493417,Gdańsk,Poland,PL
+502075,Kraków,Poland,PL
+505120,Lodz,Poland,PL
+514048,Poznań,Poland,PL
+523920,Warsaw,Poland,PL
+526363,Wroclaw,Poland,PL
+551801,Vienna,Austria,AT
+560472,Cork,Ireland,IE
+560743,Dublin,Ireland,IE
+560912,Galway,Ireland,IE
+580778,Bordeaux,France,FR
+608105,Lille,France,FR
+609125,Lyon,France,FR
+610264,Marseille,France,FR
+612977,Montpellier,France,FR
+613858,Nantes,France,FR
+615702,Paris,France,FR
+619163,Rennes,France,FR
+627791,Strasbourg,France,FR
+628886,Toulouse,France,FR
+638242,Berlin,Germany,DE
+641142,Bremen,Germany,DE
+645458,Dortmund,Germany,DE
+645686,Dresden,Germany,DE
+646099,Dusseldorf,Germany,DE
+648820,Essen,Germany,DE
+650272,Frankfurt,Germany,DE
+656958,Hamburg,Germany,DE
+667931,Cologne,Germany,DE
+671072,Leipzig,Germany,DE
+676757,Munich,Germany,DE
+698064,Stuttgart,Germany,DE
+711080,Bologna,Italy,IT
+716085,Genoa,Italy,IT
+718345,Milan,Italy,IT
+719258,Naples,Italy,IT
+719846,Palermo,Italy,IT
+721943,Rome,Italy,IT
+725003,Turin,Italy,IT
+726874,Den Haag,Netherlands,NL
+727232,Amsterdam,Netherlands,NL
+733075,Rotterdam,Netherlands,NL
+734047,Utrecht,Netherlands,NL
+753692,Barcelona,Spain,ES
+754542,Bilbao,Spain,ES
+764814,Las Palmas,Spain,ES
+766273,Madrid,Spain,ES
+766356,Malaga,Spain,ES
+768026,Murcia,Spain,ES
+769293,Palma,Spain,ES
+774508,Seville,Spain,ES
+776688,Valencia,Spain,ES
+779063,Zaragoza,Spain,ES
+782538,Geneva,Switzerland,CH
+783058,Lausanne,Switzerland,CH
+784794,Zurich,Switzerland,CH
+824382,Brest,Belarus,BY
+825848,Grodno,Belarus,BY
+825978,Gomel,Belarus,BY
+834463,Minsk,Belarus,BY
+854823,Riga,Latvia,LV
+857105,Bergen,Norway,NO
+862592,Oslo,Norway,NO
+890869,Gothenburg,Sweden,SE
+906057,Stockholm,Sweden,SE
+918981,Dnipropetrovsk,Ukraine,UA
+919163,Donetsk,Ukraine,UA
+922137,Kharkiv,Ukraine,UA
+924938,Kyiv,Ukraine,UA
+924943,Lviv,Ukraine,UA
+929398,Odesa,Ukraine,UA
+939628,Zaporozhye,Ukraine,UA
+946738,Athens,Greece,GR
+963291,Thessaloniki,Greece,GR
+1030077,Bekasi,Indonesia,ID
+1032539,Depok,Indonesia,ID
+1040779,Pekanbaru,Indonesia,ID
+1044316,Surabaya,Indonesia,ID
+1046138,Makassar,Indonesia,ID
+1047180,Bandung,Indonesia,ID
+1047378,Jakarta,Indonesia,ID
+1047908,Medan,Indonesia,ID
+1048059,Palembang,Indonesia,ID
+1048324,Semarang,Indonesia,ID
+1048536,Tangerang,Indonesia,ID
+1062617,Singapore,Singapore,SG
+1098081,Perth,Australia,AU
+1099805,Adelaide,Australia,AU
+1100661,Brisbane,Australia,AU
+1100968,Canberra,Australia,AU
+1101597,Darwin,Australia,AU
+1103816,Melbourne,Australia,AU
+1105779,Sydney,Australia,AU
+1110809,Kitakyushu,Japan,JP
+1116753,Saitama,Japan,JP
+1117034,Chiba,Japan,JP
+1117099,Fukuoka,Japan,JP
+1117155,Hamamatsu,Japan,JP
+1117227,Hiroshima,Japan,JP
+1117502,Kawasaki,Japan,JP
+1117545,Kobe,Japan,JP
+1117605,Kumamoto,Japan,JP
+1117817,Nagoya,Japan,JP
+1117881,Niigata,Japan,JP
+1118072,Sagamihara,Japan,JP
+1118108,Sapporo,Japan,JP
+1118129,Sendai,Japan,JP
+1118285,Takamatsu,Japan,JP
+1118370,Tokyo,Japan,JP
+1118550,Yokohama,Japan,JP
+1130853,Goyang,Korea,KR
+1132094,Yongin,Korea,KR
+1132444,Ansan,Korea,KR
+1132445,Bucheon,Korea,KR
+1132447,Busan,Korea,KR
+1132449,Changwon,Korea,KR
+1132466,Daegu,Korea,KR
+1132481,Gwangju,Korea,KR
+1132496,Incheon,Korea,KR
+1132559,Seongnam,Korea,KR
+1132567,Suwon,Korea,KR
+1132578,Ulsan,Korea,KR
+1132599,Seoul,Korea,KR
+1141268,Kajang,Malaysia,MY
+1154679,Ipoh,Malaysia,MY
+1154698,Johor Bahru,Malaysia,MY
+1154726,Klang,Malaysia,MY
+1154781,Kuala Lumpur,Malaysia,MY
+1167715,Calocan,Philippines,PH
+1180689,Makati,Philippines,PH
+1187115,Pasig,Philippines,PH
+1195098,Taguig,Philippines,PH
+1198785,Antipolo,Philippines,PH
+1199002,Cagayan de Oro,Philippines,PH
+1199079,Cebu City,Philippines,PH
+1199136,Davao City,Philippines,PH
+1199477,Manila,Philippines,PH
+1199682,Quezon City,Philippines,PH
+1199980,Zamboanga City,Philippines,PH
+1225448,Bangkok,Thailand,TH
+1236594,Hanoi,Vietnam,VN
+1236690,Hai Phong,Vietnam,VN
+1252351,Can Tho,Vietnam,VN
+1252376,Da Nang,Vietnam,VN
+1252431,Ho Chi Minh City,Vietnam,VN
+1253079,Algiers,Algeria,DZ
+1326075,Accra,Ghana,GH
+1330595,Kumasi,Ghana,GH
+1387660,Benin City,Nigeria,NG
+1393672,Ibadan,Nigeria,NG
+1396439,Kaduna,Nigeria,NG
+1396803,Kano,Nigeria,NG
+1398823,Lagos,Nigeria,NG
+1404447,Port Harcourt,Nigeria,NG
+1521643,Giza,Egypt,EG
+1521894,Cairo,Egypt,EG
+1522006,Alexandria,Egypt,EG
+1528335,Mombasa,Kenya,KE
+1528488,Nairobi,Kenya,KE
+1580913,Durban,South Africa,ZA
+1582504,Johannesburg,South Africa,ZA
+1586614,Port Elizabeth,South Africa,ZA
+1586638,Pretoria,South Africa,ZA
+1587677,Soweto,South Africa,ZA
+1591691,Cape Town,South Africa,ZA
+1937801,Medina,Saudi Arabia,SA
+1939574,Dammam,Saudi Arabia,SA
+1939753,Riyadh,Saudi Arabia,SA
+1939873,Jeddah,Saudi Arabia,SA
+1939897,Mecca,Saudi Arabia,SA
+1940119,Sharjah,United Arab Emirates,AE
+1940330,Abu Dhabi,United Arab Emirates,AE
+1940345,Dubai,United Arab Emirates,AE
+1967449,Haifa,Israel,IL
+1968212,Tel Aviv,Israel,IL
+1968222,Jerusalem,Israel,IL
+1968902,Amman,Jordan,JO
+1997422,Chelyabinsk,Russia,RU
+2018708,Khabarovsk,Russia,RU
+2028717,Krasnodar,Russia,RU
+2029043,Krasnoyarsk,Russia,RU
+2077746,Samara,Russia,RU
+2108210,Voronezh,Russia,RU
+2112237,Yekaterinburg,Russia,RU
+2121040,Irkutsk,Russia,RU
+2121267,Kazan,Russia,RU
+2122265,Moscow,Russia,RU
+2122471,Nizhny Novgorod,Russia,RU
+2122541,Novosibirsk,Russia,RU
+2122641,Omsk,Russia,RU
+2122814,Perm,Russia,RU
+2123177,Rostov-on-Don,Russia,RU
+2123260,Saint Petersburg,Russia,RU
+2124045,Ufa,Russia,RU
+2124288,Vladivostok,Russia,RU
+2124298,Volgograd,Russia,RU
+2211096,Karachi,Pakistan,PK
+2211177,Lahore,Pakistan,PK
+2211269,Multan,Pakistan,PK
+2211387,Rawalpindi,Pakistan,PK
+2211574,Faisalabad,Pakistan,PK
+2268284,Muscat,Oman,OM
+2282863,Nagpur,India,IN
+2295377,Lucknow,India,IN
+2295378,Kanpur,India,IN
+2295381,Patna,India,IN
+2295383,Ranchi,India,IN
+2295386,Kolkata,India,IN
+2295387,Srinagar,India,IN
+2295388,Amritsar,India,IN
+2295401,Jaipur,India,IN
+2295402,Ahmedabad,India,IN
+2295404,Rajkot,India,IN
+2295405,Surat,India,IN
+2295407,Bhopal,India,IN
+2295408,Indore,India,IN
+2295410,Thane,India,IN
+2295411,Mumbai,India,IN
+2295412,Pune,India,IN
+2295414,Hyderabad,India,IN
+2295420,Bangalore,India,IN
+2295424,Chennai,India,IN
+2323778,Mersin,Turkey,TR
+2343678,Adana,Turkey,TR
+2343732,Ankara,Turkey,TR
+2343733,Antalya,Turkey,TR
+2343843,Bursa,Turkey,TR
+2343932,Diyarbakır,Turkey,TR
+2343980,Eskişehir,Turkey,TR
+2343999,Gaziantep,Turkey,TR
+2344116,Istanbul,Turkey,TR
+2344117,Izmir,Turkey,TR
+2344174,Kayseri,Turkey,TR
+2344210,Konya,Turkey,TR
+2345896,Okinawa,Japan,JP
+2345975,Daejeon,Korea,KR
+2348079,Auckland,New Zealand,NZ
+2352824,Albuquerque,United States,US
+2357024,Atlanta,United States,US
+2357536,Austin,United States,US
+2358820,Baltimore,United States,US
+2359991,Baton Rouge,United States,US
+2364559,Birmingham,United States,US
+2367105,Boston,United States,US
+2378426,Charlotte,United States,US
+2379574,Chicago,United States,US
+2380358,Cincinnati,United States,US
+2381475,Cleveland,United States,US
+2383489,Colorado Springs,United States,US
+2383660,Columbus,United States,US
+2388929,Dallas-Ft. Worth,United States,US
+2391279,Denver,United States,US
+2391585,Detroit,United States,US
+2397816,El Paso,United States,US
+2407517,Fresno,United States,US
+2414469,Greensboro,United States,US
+2418046,Harrisburg,United States,US
+2423945,Honolulu,United States,US
+2424766,Houston,United States,US
+2427032,Indianapolis,United States,US
+2428184,Jackson,United States,US
+2428344,Jacksonville,United States,US
+2430683,Kansas City,United States,US
+2436704,Las Vegas,United States,US
+2441472,Long Beach,United States,US
+2442047,Los Angeles,United States,US
+2442327,Louisville,United States,US
+2449323,Memphis,United States,US
+2449808,Mesa,United States,US
+2450022,Miami,United States,US
+2451822,Milwaukee,United States,US
+2452078,Minneapolis,United States,US
+2457170,Nashville,United States,US
+2458410,New Haven,United States,US
+2458833,New Orleans,United States,US
+2459115,New York,United States,US
+2460389,Norfolk,United States,US
+2464592,Oklahoma City,United States,US
+2465512,Omaha,United States,US
+2466256,Orlando,United States,US
+2471217,Philadelphia,United States,US
+2471390,Phoenix,United States,US
+2473224,Pittsburgh,United States,US
+2475687,Portland,United States,US
+2477058,Providence,United States,US
+2478307,Raleigh,United States,US
+2480894,Richmond,United States,US
+2486340,Sacramento,United States,US
+2486982,St. Louis,United States,US
+2487610,Salt Lake City,United States,US
+2487796,San Antonio,United States,US
+2487889,San Diego,United States,US
+2487956,San Francisco,United States,US
+2488042,San Jose,United States,US
+2490383,Seattle,United States,US
+2503713,Tallahassee,United States,US
+2503863,Tampa,United States,US
+2508428,Tucson,United States,US
+2512636,Virginia Beach,United States,US
+2514815,Washington,United States,US
+15015370,Osaka,Japan,JP
+15015372,Kyoto,Japan,JP
+20070458,Delhi,India,IN
+23424738,United Arab Emirates,United Arab Emirates,AE
+23424740,Algeria,Algeria,DZ
+23424747,Argentina,Argentina,AR
+23424748,Australia,Australia,AU
+23424750,Austria,Austria,AT
+23424753,Bahrain,Bahrain,BH
+23424757,Belgium,Belgium,BE
+23424765,Belarus,Belarus,BY
+23424768,Brazil,Brazil,BR
+23424775,Canada,Canada,CA
+23424782,Chile,Chile,CL
+23424787,Colombia,Colombia,CO
+23424796,Denmark,Denmark,DK
+23424800,Dominican Republic,Dominican Republic,DO
+23424801,Ecuador,Ecuador,EC
+23424802,Egypt,Egypt,EG
+23424803,Ireland,Ireland,IE
+23424819,France,France,FR
+23424824,Ghana,Ghana,GH
+23424829,Germany,Germany,DE
+23424833,Greece,Greece,GR
+23424834,Guatemala,Guatemala,GT
+23424846,Indonesia,Indonesia,ID
+23424848,India,India,IN
+23424852,Israel,Israel,IL
+23424853,Italy,Italy,IT
+23424856,Japan,Japan,JP
+23424860,Jordan,Jordan,JO
+23424863,Kenya,Kenya,KE
+23424868,Korea,Korea,KR
+23424870,Kuwait,Kuwait,KW
+23424873,Lebanon,Lebanon,LB
+23424874,Latvia,Latvia,LV
+23424898,Oman,Oman,OM
+23424900,Mexico,Mexico,MX
+23424901,Malaysia,Malaysia,MY
+23424908,Nigeria,Nigeria,NG
+23424909,Netherlands,Netherlands,NL
+23424910,Norway,Norway,NO
+23424916,New Zealand,New Zealand,NZ
+23424919,Peru,Peru,PE
+23424922,Pakistan,Pakistan,PK
+23424923,Poland,Poland,PL
+23424924,Panama,Panama,PA
+23424925,Portugal,Portugal,PT
+23424930,Qatar,Qatar,QA
+23424934,Philippines,Philippines,PH
+23424935,Puerto Rico,Puerto Rico,PR
+23424936,Russia,Russia,RU
+23424938,Saudi Arabia,Saudi Arabia,SA
+23424942,South Africa,South Africa,ZA
+23424948,Singapore,Singapore,SG
+23424950,Spain,Spain,ES
+23424954,Sweden,Sweden,SE
+23424957,Switzerland,Switzerland,CH
+23424960,Thailand,Thailand,TH
+23424969,Turkey,Turkey,TR
+23424975,United Kingdom,United Kingdom,GB
+23424976,Ukraine,Ukraine,UA
+23424977,United States,United States,US
+23424982,Venezuela,Venezuela,VE
+23424984,Vietnam,Vietnam,VN
+56013632,Petaling,Malaysia,MY
+56013645,Hulu Langat,Malaysia,MY
+56120136,Ahsa,Saudi Arabia,SA
+90036018,Okayama,Japan,JP
