@@ -19,7 +19,7 @@ globe_fig = px.scatter_geo(globe_data, locations='Alpha-3_code', hover_name='Loc
 
 app.layout = html.Div([
 
-#Div containing Logo and title text
+    #Div containing Logo and title text
     html.Div([
         html.Img(src='assets/twitter_logo.png',id='twitLogo'),
         html.H1(children='Twit-Viz', id='pageTitle')      
@@ -29,46 +29,39 @@ app.layout = html.Div([
         'position':'relative'
     }),
 
-#Master tab containing two elements
-    dcc.Tabs([
-        
-#Tab containing search features
-        dcc.Tab(label='Search', children=[
-
-    #All hashtag and username viz components go below        
+    #Div containing buttons of two pages
+    html.Div([
+        html.Button('User/Hashtag Viz',type='submit', id='userVizBtn'),
+        #html.Button('Globe Viz',type='submit', id='globeViz')
+    ], style={
+            'width':'100%',
+            'text-align':'center',
+            'position':'relative'            
+        }
+    ),
 
     #Div containing input field from user
-        html.Div([
-            html.P('Enter user/profile name below', style={
-                 'color':'#4d4d4d'
-            }),
-            dcc.Input(id='userInput', type='text'),
+     html.Div([
+         html.P('Enter user/profile name below', style={
+             'color':'#4d4d4d'
+         }),
+         dcc.Input(id='userInput', type='text'),
+         html.Button('Get Viz', id='getVizBtn',n_clicks=0)
+    ], id="inputContainerDiv" 
+    ),
 
-            html.Button('Get Viz', id='getVizBtn',n_clicks=0)
-        ], id="inputContainerDiv" 
-        ),
-        
-    #Display the graph in a Div
-        html.Div(id='graphOutput')
+    html.Div(id='graphOutput'),
 
-        ], className='customtab',selected_className='customtabSelected'),
+    #html.Div([id='globeOutput'),
 
+    html.Div([
+         dcc.Graph(
+                id='globeFigure',
+                figure=globe_fig
+            )
+    ]),
 
-    #Tab containing global trends features
-        dcc.Tab(label='Global Trends', children=[
-            
-    #Global trends go here
-                html.Div([
-                    dcc.Graph(
-                        id='globeFigure',
-                        figure=globe_fig
-                    )   
-                ]),
-
-            html.Div(id='globalUpdates')
-        ], className='customtab', selected_className='customtabSelected'),       
-            
-], className='customtabsContainer')
+    html.Div(id='globalUpdates')
 ])
 
 

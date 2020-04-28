@@ -113,3 +113,29 @@
     margin: 4px;
     border-radius: 2px;    
 }
+
+/*******Tab styling*******/
+
+.customtabsContainer {
+    
+    padding: 0px 24px;    
+    margin: 5px;
+    border: none;
+    position: relative;
+}
+
+.customtab {
+    color:#6D7179;;            
+    padding: 12px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;        
+    border: none;
+}
+.customtabSelected {
+    color: black;
+    background-color: #6D7179;        
+    /*border-color: 5px solid #1da1f2 !important;*/
+    border:none;
+}
