@@ -30,7 +30,8 @@ app.layout = html.Div([
     }),
 
 
-    dcc.Tabs([        
+    dcc.Tabs([
+        
 #Tab containing search features
         dcc.Tab(label='Search', children=[   
 
@@ -142,29 +143,8 @@ def globe_data_update(clickData):
         woe_id = int(globe_data[globe_data['Country'] == country_name]['Woe_Id'])       
         trend_list=[]
         trend_list = trend_name_populator(woe_id)        
-        return(
-               dcc.Tabs(id='tabs-example', value='tab-1', vertical=True ,children=[
-                    
-                    dcc.Tab(label=trend_list[0], value='tab-1', children=[
-                        html.P(trend_list[0])                     ]                   
-                    ),
-                    
-                    dcc.Tab(label=trend_list[1], value='tab-2', children=[
-                        html.P(trend_list[1])
-                    ]
-                    ),
+        return(type(trend_list))
 
-                    dcc.Tab(label=trend_list[2], value='tab-3', children=[
-                        html.P(trend_list[2])
-                    ]
-                    ),
-
-                    dcc.Tab(label=trend_list[3], value='tab-4', children=[
-                        html.P(trend_list[3])
-                    ]
-                    ),
-                ]),
-        )
 
 if __name__ == '__main__':
     app.run_server(debug=True)
