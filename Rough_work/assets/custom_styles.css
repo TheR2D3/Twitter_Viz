@@ -151,3 +151,23 @@
     margin: 5px;
     top:10%
 }
+
+#plotGraphBtn{
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;    
+    border: 2px thin #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;        
+    margin: 5px;
+    text-align: center;    
+    position:relative;        
+}
+
+#plotGraphBtn:hover{
+    color: #f4f4f4 !important;
+    background: hsl(0, 0%, 67%);
+    border-color: #1da1f2 !important;
+    transition: all 0.4s ease 0s;    
+}

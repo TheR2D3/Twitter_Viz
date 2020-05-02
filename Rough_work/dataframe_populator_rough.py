@@ -80,6 +80,23 @@ def trend_name_populator(woe_id):
         trend_list.append(trend["name"])
 
     return(trend_list[:5])
+
+def trend_tweet_populator(hashtag):
+    # The auth methods
+    auth = tweepy.OAuthHandler('PwIx3tXnoN6LNEjHMWtn2b7s2', '8vr859bsLSRyiijzMvFaACYqxnYNdLhcwTWhKEUPSrRSnrQziU')
+    auth.set_access_token('150554502-Svlt33TXWClnGYpJ5G01SfVUYhXcEvXCaIfQW8nW', 'eiKA07ylhb5Y5dWWXTaRU09H39N8rVZMFQTOmNjD081n5')
+    api = tweepy.API(auth)
+
+    tweet_string=[]
+    hashtag_phrase= str(hashtag)
+
+
+    for tweet in tweepy.Cursor(api.search, q= hashtag_phrase +' -filter:retweets', lang="en", tweet_mode="extended").items(10):
+        tweet_string.append(tweet.full_text)
+    
+    return(tweet_string)
+
+
 	
 
 
