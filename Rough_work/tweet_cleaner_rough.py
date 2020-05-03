@@ -199,7 +199,7 @@ def data_set_cleaner(data_set_temp):
         .apply(lambda x: ' '.join(x))
 
     #Stem the input
-    data_set_temp['Stemmed_review'] = data_set_temp['No_stop_words'].apply(lambda x:stemmer_output(x))
+    data_set_temp['Stemmed_review'] = data_set_temp['No_stop_words'].apply(lambda x:stemmer_output(x))    
     
     return(data_set_temp)
 

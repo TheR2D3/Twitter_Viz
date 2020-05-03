@@ -50,7 +50,7 @@ app.layout = html.Div([
         html.Div(id='graphOutput'),
 
         html.Div([
-                html.P('This is where custom inputs go'),
+                html.P('Make your own graph!'),
 
                 dcc.Dropdown(id='Graph_Selector1',
                     options=[
@@ -79,7 +79,7 @@ app.layout = html.Div([
                 dcc.RadioItems(id='typeOfPlot',
                   options=[
                     {'label': 'Scatter Plot', 'value': 'SCT'},
-                    {'label': 'Line Plot', 'value': 'LINE'}                    
+                    {'label': 'Bar', 'value': 'BAR'}                    
                     ],
                     labelStyle={'display': 'inline-block'}
                 ), 
@@ -88,9 +88,7 @@ app.layout = html.Div([
 
                 html.Div(id='userGraphOutput')
         ],                              
-        id='customUserInputs')
-
-        
+        id='customUserInputs')        
 
         ], className='customtab',selected_className='customtabSelected'),
 
@@ -141,7 +139,7 @@ def getInput(n_clicks,input_value):
                     id='example-graph-2',
                     figure={
                         'data': [
-                            {'y': dataframe_orig['Sentiment'], 'type': 'line'},                
+                            {'y': dataframe_orig['Sentiment'], 'type': 'scatter'},                
                         ],
                         'layout': {
                             'plot_bgcolor': '#f4f4f4',
@@ -262,8 +260,34 @@ def dropdownUpdater(clickData):
 )
 def userGraphUpdater(n_clicks,value1,value2,value3):
     if(n_clicks):
-        print(n_clicks,value1,value2, file=sys.stderr)
-        return(n_clicks,value1,value2)
+        print(n_clicks,value1,value2,value3, file=sys.stderr)
+        #value1=xaxis, value2=type, value3 = yaxis
+        new_data = pd.read_csv('saved_data.csv')
+
+        #Form the hour column
+        #new_data['Hour_of_tweet'] = new_data['Created_at'].apply(lambda x:x[11]+x[12])
+
+        #Form the date column
+        #new_data['Date'] = new_data['Created_at'].apply(lambda x:x[:10])
+
+        #Form the Tweet/Re-tweet column
+        #new_data['Is_retweet'] = new_data['Tweet'].apply(lambda x: 'Re-tweet' if (x[:2] == "RT") else "Tweet" )
+
+        if(value2 == 'SCT'):
+            x_data=new_data[new_data['Is_retweet'] == 'Tweet']
+            fig = px.scatter(x_data,'Retweet_count','Favorites',color='Is_retweet', labels={'Retweet_count':'# of Re-Tweets','Favourite_count':'# of Favourites'})
+            
+            return(
+                    dcc.Graph(
+                    id='scatterGraph',
+                    figure=fig
+                    )
+            )
+
+        if(value2 == 'BAR'):
+            fig = px.bar(new_data,'Date', labels={'Date':'Date of Tweet'})
+            return("Bar Plot")
+        
 
 if __name__ == '__main__':
     app.run_server(debug=True)
